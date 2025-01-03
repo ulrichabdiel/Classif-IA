@@ -74,3 +74,35 @@ padding-bottom: 2em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .header-section h1 {
+        font-size: 2rem;
+    }
+    .intro-section h2 {
+        font-size: 1.5rem;
+    }
+    .intro-section p {
+        font-size: 0.9rem;
+        padding: 0 0.5em;
+    }
+    .uplo h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-section h1 {
+        font-size: 1.8rem;
+    }
+    .intro-section h2 {
+        font-size: 1.2rem;
+    }
+    .intro-section p {
+        font-size: 0.8rem;
+    }
+    .uplo h1 {
+        font-size: 2rem;
+    }
+}

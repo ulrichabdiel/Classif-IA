@@ -37,7 +37,7 @@ def image_to_base64(image):
 
 # Ajouter les logos avec CSS
 try:
-    logo_left_path = r"C:/Users/HP/Downloads/projet_6/projet_streamlit/images/ise.png"
+    logo_left_path = r"C:\Users\HP\Downloads\classif\images\ise.png"
     logo_left = Image.open(logo_left_path).resize((200, 200))
     logo_left_base64 = image_to_base64(logo_left)
     st.markdown(
@@ -48,7 +48,7 @@ except FileNotFoundError:
     st.write("Logo gauche non disponible.")
 
 try:
-    logo_right_path = r"C:/Users/HP/Downloads/projet_6/projet_streamlit/images/eneam.png"
+    logo_right_path = r"C:\Users\HP\Downloads\classif\images\eneam.png"
     logo_right = Image.open(logo_right_path).resize((100, 100))
     logo_right_base64 = image_to_base64(logo_right)
     st.markdown(
@@ -60,11 +60,11 @@ except FileNotFoundError:
 
 # Chargement et affichage des fichiers CSS et HTML
 try:
-    with open(r"C:/Users/HP/Downloads/projet_6/projet_streamlit/file_css/style.css") as css_file:
+    with open(r"C:\Users\HP\Downloads\classif\file_css\style.css") as css_file:
         css = css_file.read()
     st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
 
-    with open(r"C:/Users/HP/Downloads/projet_6/projet_streamlit/file_html/index.html") as html_file:
+    with open(r"C:\Users\HP\Downloads\classif\file_html\index.html") as html_file:
         html_content = html_file.read()
     st.markdown(html_content, unsafe_allow_html=True)
 except FileNotFoundError as e:
@@ -114,11 +114,11 @@ if uploaded_files:
 
 # Chargement et affichage des fichiers CSS et HTML supplémentaires
 try:
-    with open(r"C:/Users/HP/Downloads/projet_6/projet_streamlit/file_css/team.css") as css_file:
+    with open(r"C:\Users\HP\Downloads\classif\file_css\team.css") as css_file:
         css = css_file.read()
     st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
 
-    with open(r"C:/Users/HP/Downloads/projet_6/projet_streamlit/file_html/team.html") as html_file:
+    with open(r"C:\Users\HP\Downloads\classif\file_html\team.html") as html_file:
         html_content = html_file.read()
     st.markdown(html_content, unsafe_allow_html=True)
 except FileNotFoundError as e:
