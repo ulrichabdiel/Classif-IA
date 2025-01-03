@@ -1,0 +1,76 @@
+/* Styles généraux */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F9F9F9; /* Fond sobre */
+    color: #333333; /* Texte principal */
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Section d'en-tête */
+.header-section {
+    background: linear-gradient(to right, #987257 0%, #a0c249 100%); /* Dégradé bleu royal et bleu pétrole */
+    color: #F9F9F9; /* Texte blanc cassé pour contraste */
+    padding: 6px 2px;
+    border: 2px solid; /* Bordure bleu royal */
+    border-radius: 10px; /* Coins arrondis */}
+
+.header-section h1 {
+    font-size: 3em;
+    margin: 0;
+    letter-spacing: 1.5px;
+    /* text-transform: uppercase; */
+    color: #000;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.header-section p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.intro-section {
+    background-color: #e6dfbd95; /* Gris perle */
+    /* padding: 50px 20px; */
+    text-align: center;
+    color: #000000; /* Noir classique */
+/* Section d'introduction */
+padding-bottom: 2em;
+}
+
+.intro-section h2 {
+    color: #0056D2; /* Bleu royal */
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 1em;
+}
+.etape{
+    font-size: 20px;
+}
+.intro-section p {
+    font-size: 1.1rem;
+    color: #000000; /* Noir classique */
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px; /* Ajustez la valeur selon votre besoin */
+    margin-left: 4em; /* Pour éviter un espacement supplémentaire par défaut */
+    margin-right: 4em;
+    line-height: 1.6; /* Pour améliorer l'espacement entre les lignes */
+}
+.uplo h1 {
+    font-size: 3em;
+    margin: 0;
+    letter-spacing: 1.5px;
+    /* text-transform: uppercase; */
+    color: #a0c249;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}

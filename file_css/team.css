@@ -1,0 +1,53 @@
+/* Section des Chefs de Projet */
+.team-section {
+    background-color: #e6dfbd95; /* Gris perle */
+    padding: 50px 20px;
+    text-align: center;
+    color: #333333; /* Noir classique */
+}
+
+.team-section h2 {
+    color: #000; /* Bleu royal */
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.team-description {
+    font-size: 1.1rem;
+    color: #1A1A1A; /* Bleu nuit */
+    margin-bottom: 30px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    background-color: #FFFFFF; /* Blanc */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+}
+
+.team-member h3 {
+    color: #0056D2; /* Bleu royal */
+    font-size: 1.3rem;
+    margin: 10px 0 5px;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #666666; /* Gris acier */
+    margin: 0;
+}
