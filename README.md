@@ -34,6 +34,15 @@ Une application intuitive conçue pour classer des images en fonction de leur cl
 
 ---
 
+## À propos de l'équipe
+Nous sommes une équipe d'ingénieurs statisticiens économistes de ISE ENEAM, spécialisés en analyse de données et en solutions innovantes.
+Nos chefs de projet :
+
+- Mr. Abdiel Ulrich ZOUNTCHEME -Ingénieur Statisticien Économiste
+- Mr. Brillant BABA -Ingénieur Statisticien Économiste
+
+---
+
 ## Technologies utilisées
 
 L'application repose sur des outils robustes et performants :  
@@ -49,13 +58,3 @@ Pillow==11.1.0
 streamlit==1.39.0
 tensorflow_intel==2.18.0
 
----
-
-## À propos de l'équipe
-Nous sommes une équipe d'ingénieurs statisticiens économistes de ISE ENEAM, spécialisés en analyse de données et en solutions innovantes.
-Nos chefs de projet :
-
-- Mr. Abdiel Ulrich ZOUNTCHEME
-Ingénieur Statisticien Économiste
-- Mr. Brillant BABA
-Ingénieure Statisticienne Économiste
